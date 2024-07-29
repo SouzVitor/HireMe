@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>HireMe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><img src="icon.png" alt="icon"> 
+        Me Contrate</h1>     
+    <form id="applicationForm">
+        <label for="jobTitle">Vaga:</label>
+        <input type="text" id="jobTitle" placeholder="Título da vaga" required><br><br>
+        
+        <label for="company">Empresa:</label>
+        <input type="text" id="company" placeholder="Nome da empresa" required><br><br>
+        
+        <label for="deadline">Data Limite:</label>
+        <input type="date" id="deadline" required><br><br>
+
+        <label for="notes">Notas:</label>
+        <textarea id="notes" placeholder="Suas anotações aqui"></textarea><br><br>
+
+        <button type="submit">Adicionar Candidatura</button>
+    </form>
+    
+    <div id="applications"></div>
+    
+    <button id="generateReport">Gerar Relatório</button>
+    <div id="report"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

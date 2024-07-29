@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;    
+}
+
+h1 img  {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    background-position: left;
+    margin-right: 10px;
+         
+}
+
+form {
+    background-color: azure;    
+    display: flex;   
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 5px
+    
+  }
+
+input,
+textarea,
+button {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc; /* Adicione uma borda aos campos de entrada */
+    border-radius: 3px;    /* Borda arredondada para os campos de entrada */
+    
+}
+
+#applications {
+    margin-top: 10px;
+    
+}
+
+.application {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.application p {
+    margin: 5px 0;
+}
+
+button {
+    width: 250px; /* Ajuste o valor conforme necessário */
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto; /* Adiciona margem superior e inferior e centraliza */
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#applications {
+    background-image: linear-gradient(lightblue, transparent 20px);
+    padding: 10px; 
+  }
+
+  /* Adicione mais estilos para o relatório (reportDiv) se precisar */
