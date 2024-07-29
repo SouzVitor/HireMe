@@ -10,6 +10,8 @@ O HireMe é uma extensão para o Google Chrome que te ajuda a organizar e acompa
 * Excluir candidaturas que não são mais relevantes.
 * Gerar um relatório com estatísticas sobre suas candidaturas.
 * Receber lembretes para não perder os prazos das suas aplicações.
+* ![HireMe](https://github.com/user-attachments/assets/04090ddd-c2b9-43e7-ac9b-2b3db45447eb)
+
 
 ## Como Usar
 
